@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="purnachandra-b" id="0" name="QuoteControllerTests" package="qotd" tests="1" time="0.93" timestamp="2013-06-03T11:57:17">
+      <properties />
+
+      <testcase classname="qotd.QuoteControllerTests" name="testSomething" time="0.856">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at qotd.QuoteControllerTests.testSomething(QuoteControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="purnachandra-b" id="1" name="QuoteServiceTests" package="qotd" tests="1" time="0.205" timestamp="2013-06-03T11:57:18">
+      <properties />
+
+      <testcase classname="qotd.QuoteServiceTests" name="testGetStaticQuote" time="0.057">
+          <error message="Cannot invoke method getStaticQuote() on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke method getStaticQuote() on null object
+	at qotd.QuoteServiceTests.testGetStaticQuote(QuoteServiceTests.groovy:15)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testGetStaticQuote--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testGetStaticQuote--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="purnachandra-b" id="2" name="QuoteTests" package="qotd" tests="1" time="0.293" timestamp="2013-06-03T11:57:18">
+      <properties />
+
+      <testcase classname="qotd.QuoteTests" name="testSomething" time="0.289">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at qotd.QuoteTests.testSomething(QuoteTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
